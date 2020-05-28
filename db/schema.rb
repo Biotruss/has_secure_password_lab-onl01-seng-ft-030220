@@ -14,3 +14,6 @@
 ActiveRecord::Schema.define(version: 0) do
 
 end
+  t.string   "name"
+    t.string   "password_digest"
+rails g resources User name:string password_digest:string --no-test-framework
